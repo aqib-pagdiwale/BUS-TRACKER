@@ -1,0 +1,12 @@
+node_modules/
+.expo/
+.expo-shared/
+.env
+.vscode/
+dist/
+build/
+coverage/
+git rm -r --cached bus-tracker-backend/node_modules
+git add .
+git commit -m "add gitignore and remove node_modules"
+git push
